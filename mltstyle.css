@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Roboto|Satisfy&display=swap');
+
+.leftside,
+.rightside {
+    height: 100vh;
+    width: 100%;
+}
+
+.leftside {
+    background-color: white;
+
+}
+
+.rightside {
+    background-color: #CAFFFB;
+}
+
+.marlarportrait {
+    /*hover effect*/
+    width: auto;
+    height: auto;
+    padding-top: 34px;
+}
+
+@media screen and (min-width: 768px) {
+    .leftside {
+        height: 100vh;
+
+    }
+
+    .rightside {
+        height: 100vh;
+        margin-top: 0px;
+
+    }
+
+    .marlarportrait {
+        /*hover effect*/
+
+    }
+
+    .spaceright {
+        padding-right: 0px;
+    }
+
+    .spaceleft {
+        padding-left: 0px;
+    }
+    
+    .reachmeimg {
+        width: 200px;
+        height: 154px;
+    }
+    .tagline{
+    padding-top: 0px; padding-right: 0px;
+}
+
+}
+
+
+.fullwidth {
+    height: auto;
+    width: 100%;
+    background-color: #CAFFFB;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 0.9em;
+}
+
+.bghome {
+/*    background: rgba(76, 175, 80, 0.3)*/
+
+    background-image: url('images/bgweb@2x-100.jpg');
+}
+
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 2.5em;
+    color: #fff;
+
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #575757;
+}
+
+a.view:link {
+    color: #000;
+    text-decoration: none;
+   
+}
+
+/* visited link */
+a.view:visited {
+    color: #000;
+}
+
+/* mouse over link */
+a.view:hover {
+    color: #92a30e;
+    text-decoration: underline;
+}
+
+/* selected link */
+a.view:active {
+    color: #ff8395;
+    text-decoration: underline;
+}
+
+.intropara {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 20px;
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5em;
+}
+
+.caption {
+    font-size: 0.8em;
+    padding-top: 10px;
+    color: #fff;
+}
+.tagline{
+    font-family: 'Satisfy', cursive;
+    font-size: 1em;
+    padding-top: 10px; padding-right: 50px;
+}
+.spaceright {
+    padding-right: 20px;
+}
+
+.spaceleft {
+    padding-left: 20px;
+}
+
+.navname {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 2.5em;
+    color: green;
+}
+
+.bgcyan {
+    background-color: #CAFFFB;
+}
+
+.socialicon {
+    width: 60px;
+    height: 60px;
+    border: 0;
+}
+
+.reachmeimg {
+    width: 400px;
+    height: 308px;
+}
+
+.followme {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5em;
+    color: #575757;
+}
+
+.mltimg {
+    /*hover animation*/
+}
+.projecttitle {
+    font-family: 'Satisfy', cursive;
+    font-size: 1.5em;
+}
+
+.centeralign {
+    text-align: center;
+}
+a.btn.btn-primary {
+    color: #000;
+    background: #f4f784;
+    border-color: #eaea7a;
+    font-size: 0.8em;
+}
+
+a.btn.btn-primary:hover {
+    color: #000;
+    background: #ff8395;
+    border-color: #eef5b7;
+    font-size: 0.8em;
+}
