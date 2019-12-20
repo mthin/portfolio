@@ -58,6 +58,42 @@
 }
 
 
+
+@media screen and (min-width: 992px) {
+    .leftside {
+        height: 100vh;
+
+    }
+
+    .rightside {
+        height: 100vh;
+        margin-top: 0px;
+
+    }
+
+    .marlarportrait {
+        /*hover effect*/
+
+    }
+
+    .spaceright {
+        padding-right: 0px;
+    }
+
+    .spaceleft {
+        padding-left: 0px;
+    }
+    
+    .reachmeimg {
+        width: 200px;
+        height: 154px;
+    }
+    .tagline{
+    padding-top: 0px; padding-right: 0px;
+}
+
+}
+
 .fullwidth {
     height: auto;
     width: 100%;
